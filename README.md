@@ -35,4 +35,52 @@ Terakhir menggunakan `git log` untuk melihat log commit yang ada pada branch akt
 
 Melakukan pengecekan pada config git yang menggunakan `cat config` pada .git directory, setelah output terlihat ternyata belum ada name dan email. Lalu dilakukan pemasukan data dengan menggunakan command line `git config user.name` dan `git config user.email`
 
-### 
+### Create/modify files
+
+<img title="4" alt="4" src="./Screenshot/4. Melakukan perubahan file readme.png">
+
+Melakukan update dokumentasi pada README.md sesuai penggunaan.
+
+### git commit
+
+<img title="5" alt="5" src="./Screenshot/5. Pengecekan file yang berubah.png">
+
+Menggunakan `git status` untuk melakukan pengecekan file yang berubah pada repository.
+
+Lalu melakukan staging data dengan command `git add .` untuk menambahkan semua data yang berubah. Dapat dilihat perubahan pada command line warna hijau dengan data yang berubah.
+
+<img title="6" alt="6" src="./Screenshot/6. melakukan commit dan mengecek commit.png">
+
+Melakukan commit pada git dengan command `git commit -m "docs: initiate README file and add screenshot"`, command yang dipakai adalah `git commit -m` dengan tambahan massage `"docs: initiate README file and add screenshot"` yang menyesuaikan aturan penulisan commit.
+
+Lalu menggunakan `git log` dan `git log --online` untuk melakukan pengecekan commit
+
+### git checkout, git branch, and add/modify branch
+
+<img title="7" alt="7" src="./Screenshot/7. Melakukan pembuatan branch python.png">
+
+Melakukan pembuatan branch `python` dengan command `git checkout -b python` dan mengecek branch yang aktif dengan `git branch -a`.
+
+<img title="8" alt="8" src="./Screenshot/8. adding python file.png">
+
+Membuat `assigment.py` dengan isi
+
+```python
+print("hello world!")
+```
+
+<img title="9" alt="9" src="./Screenshot/9. checking git status and add.png">
+
+melakukan pengecekan git status dan menambahkan file ke staging
+
+<img title="10" alt="10" src="./Screenshot/10. commit on diff branch.png">
+
+melakukan commit
+
+### Setting-up remote repository
+
+<img title="10" alt="10" src="./Screenshot/11. connect to remote repo.png">
+
+menggunakan command `git branch ` untuk melihat branch dan `git branch -M master` untuk membuat branch master sebagai main branch, lalu
+`git remote add origin https://github.com/muh-adli/Assigment_GIT.git` untuk menambahkan remote repository dan `git push -u origin master` yang digunakan untuk melakukan push ke remote repository. Melakukan pengecekan dengan `git branch -a` untuk melihat remote repository.
+
