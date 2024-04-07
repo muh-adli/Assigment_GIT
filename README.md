@@ -79,8 +79,16 @@ melakukan commit
 
 ### Setting-up remote repository
 
-<img title="10" alt="10" src="./Screenshot/11. connect to remote repo.png">
+<img title="11" alt="11" src="./Screenshot/11. connect to remote repo.png">
 
 menggunakan command `git branch ` untuk melihat branch dan `git branch -M master` untuk membuat branch master sebagai main branch, lalu
 `git remote add origin https://github.com/muh-adli/Assigment_GIT.git` untuk menambahkan remote repository dan `git push -u origin master` yang digunakan untuk melakukan push ke remote repository. Melakukan pengecekan dengan `git branch -a` untuk melihat remote repository.
+
+### Membuat commit pada branch, melakukan pembuatan file, dan melakukan push serta merge
+
+<img title="10" alt="10" src="./Screenshot/10. commit on diff branch.png">
+
+<img title="12" alt="12" src="./Screenshot/12. melakukan pembuatan file python, commit, dan push ke origin.png">
+
+<img title="13" alt="13" src="./Screenshot/13. membuat push.png">
 
